@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./bg1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    overflow-y: hidden;
+}
+.taskbar{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    justify-content: center;
+    
+}
+.taskbar .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:12px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.taskbar .icon img{
+width: 40px;
+height: 40px;
+
+}
+.maintaskbar{
+    position: fixed;
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    
+    background-color: rgb(224, 222, 222);
+}
+.taskbar .right{
+    position: absolute;
+    right: 50px;
+   
+    
+}
+.taskbar .right img{
+    height: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.content {
+    
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    /* position: relative; */
+    /* bottom: 0px; */
+    display: flex;
+    position: absolute;
+    bottom: -500px;
+    justify-content: center;
+    flex-direction: row;
+transition: all 0.4s ease-in;
+margin-left: 517px;
+   
+}
+.content-icon img{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+.this-pc img{
+    width: 100px;
+    height: 100px;
+    
+}
+.this-pc{
+    display: inline-block;
+    margin: 40px;
+
+}
+.this-pc span{
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+}
